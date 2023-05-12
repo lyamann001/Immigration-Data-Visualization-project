@@ -14,23 +14,6 @@ The Result of Area Graph
 
 The Results of HIstograms
 
-#histogram
-count, bin_edges = np.histogram(df_can["2013"])
-print(count)
-print(bin_edges)
-
-df_can["2013"].plot(
-    kind="hist",
-    figsize=(10, 7),
-    xticks=bin_edges,
-    color='b'
-)
-
-plt.title("Histogram of Immigration from 195 Countries in 2013")
-plt.ylabel("Number of Countries")
-plt.xlabel("Number of Immigrant")
-plt.grid(True)
-plt.show()
 
 ![histogram_dataVS1](https://github.com/lyamann001/Immigration-Data-Visualization-project/assets/60852845/6c25ce41-e489-4e74-a3f3-de6f3a6e9d9e)
 
